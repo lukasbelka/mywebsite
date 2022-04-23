@@ -44,10 +44,10 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          {author?.summary || null} Einiges von mir gibt's auch auf
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+          <a href={`https://github.com/lukasbelka${social?.github || ``}`}>
+             Github.
           </a>
         </p>
       )}

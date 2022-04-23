@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Lukas Belka`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Lukas Belka`,
+      summary: `Hi, ich bin Analytics Developer und mache Daten für Menschen verständlich und nutzbar. Hier schreibe ich über Data Analytics und Web Development.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Analytics Developer | Data Analyst and Web Dev Fan.`,
+    siteUrl: `https://lukasbelka.dev/`,
     social: {
-      twitter: `kylemathews`,
+      github: `lukasbelka`,
     },
   },
   plugins: [
