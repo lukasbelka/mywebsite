@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Lukas Belka`,
+    title: `lukasbelka.dev`,
     author: {
       name: `Lukas Belka`,
       summary: `Hi, ich bin Analytics Developer und mache Daten für Menschen verständlich und nutzbar. Hier schreibe ich über Data Analytics und Web Development.`,
