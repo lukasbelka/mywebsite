@@ -3,12 +3,13 @@ module.exports = {
     title: `lukasbelka.dev`,
     author: {
       name: `Lukas Belka`,
-      summary: `Hi, ich bin Analytics Developer und mache Daten für Menschen verständlich und nutzbar. Hier schreibe ich über Data Analytics und Web Development.`,
+      summary: `I'm a German-based Analytics Developer who makes data human-friendly and usable. I blog about data analytics, `,
     },
-    description: `Analytics Developer | Data Analyst and Web Dev Fan.`,
+    description: `Analytics Developer | Data Analyst | Web Dev Fan.`,
     siteUrl: `https://lukasbelka.dev/`,
     social: {
       github: `lukasbelka`,
+      twitter: `lukasb_dev`
     },
   },
   plugins: [

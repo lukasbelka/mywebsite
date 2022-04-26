@@ -40,15 +40,16 @@ const Bio = () => {
         width={50}
         height={50}
         quality={95}
-        alt="Profile picture"
+        alt="Lukas profile picture"
       />
       {author?.name && (
         <p>
-          {author?.summary || null} Einiges von mir gibt's auch auf
+          {author?.summary || null} store things on
           {` `}
           <a href={`https://github.com/lukasbelka${social?.github || ``}`}>
-             Github.
-          </a>
+             GitHub</a> and 
+             {` `}
+          <a href={`https://github.com/lukasbelka${social?.github || ``}`}>tweet</a> when I'm bored. :)
         </p>
       )}
     </div>

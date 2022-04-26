@@ -10,13 +10,13 @@ const Layout = ({ location, title, children }) => {
     header = (
       <ul className="header-list-p"> 
         <li className="header-link-p">
-          <Link to="/">Home</Link>
+          <Link to="/">home</Link>
         </li>
         <li className="header-link-p">
-          <Link to="/">About</Link>
+          <Link to="/about">about</Link>
         </li>
         <li className="header-link-p">
-        <Link to="/">Github</Link>
+        <Link to="https://github.com/lukasbelka">github</Link>
         </li>
       </ul>
     )
@@ -24,13 +24,13 @@ const Layout = ({ location, title, children }) => {
     header = (
       <ul className="header-list-p"> 
         <li className="header-link-p">
-          <Link to="/">Home</Link>
+          <Link to="/">home</Link>
         </li>
         <li className="header-link-p">
-          <Link to="/">About</Link>
+          <Link to="/about">about</Link>
         </li>
         <li className="header-link-p">
-        <Link to="/">Github</Link>
+        <Link to="https://github.com/lukasbelka">github</Link>
         </li>
       </ul>
     )
@@ -41,15 +41,26 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        <div>
-          <p>Col_1</p>
-        </div>
-        <div>
-          <p>Col_2</p>
-        </div>
-        © {new Date().getFullYear()} - Lukas Belka
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+         <div class="container border-top border-bottom">
+            <div class="row">
+              <div class="col-sm text-center">
+                <h6>data knowledge</h6>
+                <ul class="footer-list">
+                  <li><a class="footer-link" href="/data-analytics-faq">data analytics faq</a></li>
+                  <li> Element 2</li>
+                  <li> Element 3</li>
+                </ul> 
+              </div>
+            </div>
+          </div>
+          <div class="text-center p-4">
+            <p>
+           © {new Date().getFullYear()} - Lukas Belka
+            {` `}<br></br>
+            <a className="footer-imprint" href="/">legal notice </a> |
+            <a className="footer-imprint" href="/"> data protection</a>
+            </p>
+         </div>
       </footer>
     </div>
   )
