@@ -49,7 +49,7 @@ const Bio = () => {
           <a href={`https://github.com/lukasbelka${social?.github || ``}`}>
              GitHub</a> and 
              {` `}
-          <a href={`https://github.com/lukasbelka${social?.github || ``}`}>tweet</a> when I'm bored. :)
+          <a href={`https://github.com/lukasbelka${social?.github || ``}`}>tweet</a> from time to time.
         </p>
       )}
     </div>
