@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: `https://lukasbelka.dev/`,
     social: {
       github: `lukasbelka`,
-      twitter: `lukasb_dev`
+      twitter: `lukasbelka_dev`
     },
   },
   plugins: [
