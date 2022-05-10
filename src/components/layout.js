@@ -47,8 +47,7 @@ const Layout = ({ location, title, children }) => {
                 <h6>data knowledge</h6>
                 <ul class="footer-list">
                   <li><a class="footer-link" href="/data-analytics-faq">data analytics faq</a></li>
-                  <li> Element 2</li>
-                  <li> Element 3</li>
+                  <li><a class="footer-link" href="/financial-data-faq">financial data faq</a></li>                  
                 </ul> 
               </div>
             </div>

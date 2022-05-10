@@ -3,7 +3,7 @@ module.exports = {
     title: `lukasbelka.dev`,
     author: {
       name: `Lukas Belka`,
-      summary: `I'm a German-based Analytics Developer who makes data human-friendly and usable. I blog about data analytics, `,
+      summary: `I'm a German-based Analytics Developer with a digital business background who likes the idea of open data. This is my blog about data analytics.`,
     },
     description: `Analytics Developer | Data Analyst | Web Dev Fan.`,
     siteUrl: `https://lukasbelka.dev/`,

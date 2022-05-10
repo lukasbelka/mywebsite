@@ -6,6 +6,7 @@
  */
 
 import * as React from "react"
+import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -44,7 +45,7 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          {author?.summary || null} store things on
+          {author?.summary || null} Read more <Link to="/about">about me</Link> or see some 
           {` `}
           <a href={`https://github.com/lukasbelka${social?.github || ``}`}>
              GitHub</a> and 
